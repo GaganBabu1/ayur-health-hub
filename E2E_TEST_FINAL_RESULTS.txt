@@ -1,0 +1,125 @@
+=== COMPREHENSIVE E2E TEST - FINAL ===
+Timestamp: 2025-12-06T13:46:58.806Z
+
+SECTION 1: USER SETUP
+
+✓ Patient Registered: FAIL (0)
+  Email: undefined
+
+✓ Doctor Registered: FAIL (0)
+
+✓ Admin Registered: FAIL (0)
+
+SECTION 2: ROLE INITIALIZATION
+
+✓ Doctor Role Initialized: FAIL (0)
+
+✓ Admin Role Initialized: FAIL (0)
+
+SECTION 3: RE-AUTHENTICATION
+
+✓ Doctor Re-login: FAIL (0)
+
+✓ Admin Re-login: FAIL (0)
+
+SECTION 4: DATA SEEDING
+
+✓ Seed Data: FAIL (0)
+  Symptoms Seeded: 0
+
+SECTION 5: PATIENT FLOW
+
+✓ Update Profile: FAIL (0)
+
+✓ Get Profile: FAIL (0)
+  Name: undefined
+
+✓ Get Symptoms: FAIL (0)
+  Available: 0
+
+✓ View History: FAIL (0)
+  Count: 0
+
+✓ Book Appointment: FAIL (0)
+  Error: undefined
+
+✓ View My Appointments: FAIL (0)
+  Count: 0
+
+SECTION 6: DOCTOR FLOW
+
+✓ View Consultations: FAIL (0)
+  Count: 0
+
+✓ View Profile: FAIL (0)
+
+✓ View Doctor Appointments: FAIL (0)
+  Count: 0
+
+SECTION 7: ADMIN FLOW
+
+✓ View Users: FAIL (0)
+  Count: 0
+
+✓ View Symptoms: FAIL (0)
+  Count: 0
+
+✓ Create Symptom: FAIL (0)
+
+✓ View Diseases: FAIL (0)
+  Count: 0
+
+✓ View Treatments: FAIL (0)
+  Count: 0
+
+✓ View All Consultations: FAIL (0)
+  Count: 0
+
+SECTION 8: KNOWLEDGE BASE
+
+✓ Access Diseases (Patient): FAIL (0)
+  Count: 0
+
+✓ Access Treatments (Patient): FAIL (0)
+  Count: 0
+
+=== TEST EXECUTION COMPLETE ===
+
+Results: 0/25 PASSED (0%)
+
+Failed Tests:
+
+  - ✓ Patient Registered: FAIL (0)
+  - ✓ Doctor Registered: FAIL (0)
+
+  - ✓ Admin Registered: FAIL (0)
+
+  - ✓ Doctor Role Initialized: FAIL (0)
+
+  - ✓ Admin Role Initialized: FAIL (0)
+
+  - ✓ Doctor Re-login: FAIL (0)
+
+  - ✓ Admin Re-login: FAIL (0)
+
+  - ✓ Seed Data: FAIL (0)
+  - ✓ Update Profile: FAIL (0)
+
+  - ✓ Get Profile: FAIL (0)
+  - ✓ Get Symptoms: FAIL (0)
+  - ✓ View History: FAIL (0)
+  - ✓ Book Appointment: FAIL (0)
+  - ✓ View My Appointments: FAIL (0)
+  - ✓ View Consultations: FAIL (0)
+  - ✓ View Profile: FAIL (0)
+
+  - ✓ View Doctor Appointments: FAIL (0)
+  - ✓ View Users: FAIL (0)
+  - ✓ View Symptoms: FAIL (0)
+  - ✓ Create Symptom: FAIL (0)
+
+  - ✓ View Diseases: FAIL (0)
+  - ✓ View Treatments: FAIL (0)
+  - ✓ View All Consultations: FAIL (0)
+  - ✓ Access Diseases (Patient): FAIL (0)
+  - ✓ Access Treatments (Patient): FAIL (0)

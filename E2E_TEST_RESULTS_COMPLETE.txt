@@ -1,0 +1,91 @@
+=== COMPREHENSIVE E2E TEST ===
+Timestamp: 2025-12-06T13:40:37.886Z
+
+SECTION 1: USER SETUP
+
+✓ Patient Registered: PASS (201)
+  Email: patient-1765028437890@test.com
+
+✓ Doctor Registered: PASS (201)
+
+✓ Admin Registered: PASS (201)
+
+SECTION 2: ROLE ASSIGNMENT (via API)
+
+✓ Doctor Role Update: FAIL (403 - auth issue) (403)
+  Note: This requires admin-authenticated user
+
+✓ Admin Role Update: FAIL (403 - auth issue) (403)
+  Note: This is expected - using bootstrap user
+
+
+SECTION 3: RE-AUTHENTICATION
+
+✓ Doctor Re-login: PASS (200)
+  Role: patient
+
+✓ Admin Re-login: PASS (200)
+  Role: patient
+
+SECTION 4: DATA SEEDING
+
+✓ Seed Data: PASS (201)
+  Symptoms: 13
+
+SECTION 5: PATIENT FLOW
+
+✓ Update Profile: PASS (200)
+
+✓ Get Profile: PASS (200)
+  Name: Patient User
+
+✓ Get Symptoms: PASS (200)
+  Available: 2
+
+✓ Create Consultation: PASS (201)
+  ID: 69343256e559642ff1781ef8
+
+✓ View History: PASS (200)
+  Count: 1
+
+✓ Book Appointment: FAIL (400)
+  Error: User is not a doctor
+
+✓ View My Appointments: PASS (200)
+
+SECTION 6: DOCTOR FLOW
+
+✓ View Consultations: FAIL (403)
+  Count: 0
+
+✓ View Profile: FAIL (403)
+
+✓ View Doctor Appointments: FAIL (403)
+  Count: 0
+
+SECTION 7: ADMIN FLOW
+
+✓ View Users: FAIL (403)
+  Count: 0
+
+✓ View Symptoms: PASS (200)
+  Count: 14
+
+✓ Create Symptom: FAIL (403)
+
+✓ View Diseases: PASS (200)
+  Count: 5
+
+✓ View All Consultations: FAIL (403)
+
+SECTION 8: KNOWLEDGE BASE
+
+✓ Access Diseases (Patient): PASS (200)
+  Count: 5
+
+✓ Access Treatments (Patient): PASS (200)
+  Count: 0
+
+=== TEST EXECUTION COMPLETE ===
+
+Results: 16/25 passed (64%)

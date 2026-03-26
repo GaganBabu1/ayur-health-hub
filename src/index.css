@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 30% 97%;
+    --foreground: 150 25% 15%;
+
+    --card: 45 25% 95%;
+    --card-foreground: 150 25% 15%;
+
+    --popover: 45 25% 95%;
+    --popover-foreground: 150 25% 15%;
+
+    --primary: 145 35% 32%;
+    --primary-foreground: 45 30% 97%;
+
+    --secondary: 85 25% 85%;
+    --secondary-foreground: 150 25% 15%;
+
+    --muted: 45 20% 90%;
+    --muted-foreground: 150 15% 40%;
+
+    --accent: 35 60% 55%;
+    --accent-foreground: 150 25% 15%;
+
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 45 30% 97%;
+
+    --border: 145 20% 80%;
+    --input: 145 20% 85%;
+    --ring: 145 35% 32%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 145 30% 25%;
+    --sidebar-foreground: 45 30% 95%;
+    --sidebar-primary: 85 45% 65%;
+    --sidebar-primary-foreground: 150 25% 15%;
+    --sidebar-accent: 145 25% 30%;
+    --sidebar-accent-foreground: 45 30% 95%;
+    --sidebar-border: 145 25% 35%;
+    --sidebar-ring: 85 45% 65%;
+
+    /* Custom Ayurvedic Theme Colors */
+    --herb: 120 35% 45%;
+    --herb-light: 120 30% 75%;
+    --earth: 35 45% 40%;
+    --earth-light: 35 35% 75%;
+    --leaf: 145 40% 35%;
+    --leaf-light: 145 35% 80%;
+    --sage: 100 20% 50%;
+    --cream: 45 40% 94%;
+    --warm: 25 50% 50%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(145 35% 32%) 0%, hsl(120 35% 45%) 50%, hsl(85 35% 50%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(45 30% 97%) 0%, hsl(45 25% 95%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(35 60% 55%) 0%, hsl(25 50% 50%) 100%);
+    --gradient-nature: linear-gradient(135deg, hsl(145 40% 35%) 0%, hsl(100 20% 50%) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(145 35% 32% / 0.15);
+    --shadow-card: 0 8px 30px -8px hsl(145 35% 32% / 0.12);
+    --shadow-elevated: 0 20px 50px -12px hsl(145 35% 32% / 0.2);
+  }
+
+  .dark {
+    --background: 150 25% 8%;
+    --foreground: 45 30% 95%;
+
+    --card: 150 20% 12%;
+    --card-foreground: 45 30% 95%;
+
+    --popover: 150 20% 12%;
+    --popover-foreground: 45 30% 95%;
+
+    --primary: 85 45% 55%;
+    --primary-foreground: 150 25% 10%;
+
+    --secondary: 145 20% 20%;
+    --secondary-foreground: 45 30% 95%;
+
+    --muted: 150 15% 18%;
+    --muted-foreground: 45 20% 65%;
+
+    --accent: 35 50% 50%;
+    --accent-foreground: 45 30% 95%;
+
+    --destructive: 0 55% 45%;
+    --destructive-foreground: 45 30% 95%;
+
+    --border: 145 15% 25%;
+    --input: 145 15% 25%;
+    --ring: 85 45% 55%;
+
+    --sidebar-background: 150 25% 6%;
+    --sidebar-foreground: 45 30% 95%;
+    --sidebar-primary: 85 45% 55%;
+    --sidebar-primary-foreground: 150 25% 10%;
+    --sidebar-accent: 145 20% 15%;
+    --sidebar-accent-foreground: 45 30% 95%;
+    --sidebar-border: 145 15% 20%;
+    --sidebar-ring: 85 45% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .card-gradient {
+    background: var(--gradient-card);
+  }
+
+  .accent-gradient {
+    background: var(--gradient-accent);
+  }
+
+  .nature-gradient {
+    background: var(--gradient-nature);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .leaf-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5c-5 5-10 15-10 25s5 20 10 25c5-5 10-15 10-25S35 10 30 5z' fill='%234A7C59' fill-opacity='0.05'/%3E%3C/svg%3E");
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-md bg-background/80;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out forwards;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
