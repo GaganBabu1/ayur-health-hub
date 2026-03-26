@@ -1,0 +1,220 @@
+[
+  {
+    "_id": "mapping_001",
+    "diseaseId": "disease_001",
+    "diseaseName": "Common Cold",
+    "symptomMappings": [
+      { "symptomId": "symptom_002", "symptomName": "cough", "weight": 0.9 },
+      { "symptomId": "symptom_003", "symptomName": "sore throat", "weight": 0.85 },
+      { "symptomId": "symptom_004", "symptomName": "runny nose", "weight": 0.9 },
+      { "symptomId": "symptom_005", "symptomName": "nasal congestion", "weight": 0.88 },
+      { "symptomId": "symptom_001", "symptomName": "fever", "weight": 0.6 },
+      { "symptomId": "symptom_028", "symptomName": "fatigue", "weight": 0.5 }
+    ],
+    "baseConfidence": 0.8,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_002",
+    "diseaseId": "disease_002",
+    "diseaseName": "Acidity and Gastritis",
+    "symptomMappings": [
+      { "symptomId": "symptom_006", "symptomName": "acidity", "weight": 0.95 },
+      { "symptomId": "symptom_007", "symptomName": "heartburn", "weight": 0.9 },
+      { "symptomId": "symptom_008", "symptomName": "bloating", "weight": 0.8 },
+      { "symptomId": "symptom_009", "symptomName": "gas", "weight": 0.85 },
+      { "symptomId": "symptom_010", "symptomName": "indigestion", "weight": 0.9 },
+      { "symptomId": "symptom_011", "symptomName": "stomach pain", "weight": 0.75 },
+      { "symptomId": "symptom_012", "symptomName": "nausea", "weight": 0.6 }
+    ],
+    "baseConfidence": 0.85,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_003",
+    "diseaseId": "disease_003",
+    "diseaseName": "Migraine and Headache",
+    "symptomMappings": [
+      { "symptomId": "symptom_013", "symptomName": "headache", "weight": 0.95 },
+      { "symptomId": "symptom_014", "symptomName": "migraine", "weight": 0.9 },
+      { "symptomId": "symptom_015", "symptomName": "throbbing pain", "weight": 0.85 },
+      { "symptomId": "symptom_016", "symptomName": "light sensitivity", "weight": 0.7 },
+      { "symptomId": "symptom_012", "symptomName": "nausea", "weight": 0.6 },
+      { "symptomId": "symptom_017", "symptomName": "dizziness", "weight": 0.65 }
+    ],
+    "baseConfidence": 0.78,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_004",
+    "diseaseId": "disease_004",
+    "diseaseName": "Stress and Anxiety Disorder",
+    "symptomMappings": [
+      { "symptomId": "symptom_018", "symptomName": "stress", "weight": 0.95 },
+      { "symptomId": "symptom_019", "symptomName": "anxiety", "weight": 0.92 },
+      { "symptomId": "symptom_020", "symptomName": "insomnia", "weight": 0.88 },
+      { "symptomId": "symptom_024", "symptomName": "restlessness", "weight": 0.85 },
+      { "symptomId": "symptom_025", "symptomName": "palpitations", "weight": 0.7 },
+      { "symptomId": "symptom_026", "symptomName": "muscle tension", "weight": 0.75 },
+      { "symptomId": "symptom_027", "symptomName": "irritability", "weight": 0.7 }
+    ],
+    "baseConfidence": 0.8,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_005",
+    "diseaseId": "disease_005",
+    "diseaseName": "Insomnia and Sleep Disorder",
+    "symptomMappings": [
+      { "symptomId": "symptom_020", "symptomName": "insomnia", "weight": 0.95 },
+      { "symptomId": "symptom_021", "symptomName": "difficulty falling asleep", "weight": 0.9 },
+      { "symptomId": "symptom_022", "symptomName": "frequent waking", "weight": 0.88 },
+      { "symptomId": "symptom_023", "symptomName": "early morning awakening", "weight": 0.85 },
+      { "symptomId": "symptom_028", "symptomName": "fatigue", "weight": 0.8 },
+      { "symptomId": "symptom_027", "symptomName": "irritability", "weight": 0.7 }
+    ],
+    "baseConfidence": 0.82,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_006",
+    "diseaseId": "disease_006",
+    "diseaseName": "Indigestion",
+    "symptomMappings": [
+      { "symptomId": "symptom_010", "symptomName": "indigestion", "weight": 0.95 },
+      { "symptomId": "symptom_008", "symptomName": "bloating", "weight": 0.88 },
+      { "symptomId": "symptom_009", "symptomName": "gas", "weight": 0.85 },
+      { "symptomId": "symptom_011", "symptomName": "stomach pain", "weight": 0.8 },
+      { "symptomId": "symptom_034", "symptomName": "loss of appetite", "weight": 0.7 },
+      { "symptomId": "symptom_036", "symptomName": "heaviness in stomach", "weight": 0.8 }
+    ],
+    "baseConfidence": 0.83,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_007",
+    "diseaseId": "disease_007",
+    "diseaseName": "Constipation",
+    "symptomMappings": [
+      { "symptomId": "symptom_030", "symptomName": "constipation", "weight": 0.95 },
+      { "symptomId": "symptom_031", "symptomName": "hard stools", "weight": 0.9 },
+      { "symptomId": "symptom_011", "symptomName": "abdominal pain", "weight": 0.75 },
+      { "symptomId": "symptom_008", "symptomName": "bloating", "weight": 0.8 },
+      { "symptomId": "symptom_034", "symptomName": "loss of appetite", "weight": 0.6 }
+    ],
+    "baseConfidence": 0.85,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_008",
+    "diseaseId": "disease_008",
+    "diseaseName": "Diarrhea",
+    "symptomMappings": [
+      { "symptomId": "symptom_033", "symptomName": "diarrhea", "weight": 0.95 },
+      { "symptomId": "symptom_032", "symptomName": "loose stools", "weight": 0.9 },
+      { "symptomId": "symptom_011", "symptomName": "abdominal pain", "weight": 0.8 },
+      { "symptomId": "symptom_001", "symptomName": "fever", "weight": 0.6 },
+      { "symptomId": "symptom_029", "symptomName": "weakness", "weight": 0.7 }
+    ],
+    "baseConfidence": 0.88,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_009",
+    "diseaseId": "disease_009",
+    "diseaseName": "Cough",
+    "symptomMappings": [
+      { "symptomId": "symptom_002", "symptomName": "cough", "weight": 0.95 },
+      { "symptomId": "symptom_037", "symptomName": "productive cough", "weight": 0.88 },
+      { "symptomId": "symptom_003", "symptomName": "sore throat", "weight": 0.8 },
+      { "symptomId": "symptom_038", "symptomName": "chest discomfort", "weight": 0.7 },
+      { "symptomId": "symptom_028", "symptomName": "fatigue", "weight": 0.6 }
+    ],
+    "baseConfidence": 0.82,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_010",
+    "diseaseId": "disease_010",
+    "diseaseName": "Asthma",
+    "symptomMappings": [
+      { "symptomId": "symptom_039", "symptomName": "shortness of breath", "weight": 0.95 },
+      { "symptomId": "symptom_040", "symptomName": "wheezing", "weight": 0.9 },
+      { "symptomId": "symptom_041", "symptomName": "chest tightness", "weight": 0.88 },
+      { "symptomId": "symptom_002", "symptomName": "cough", "weight": 0.8 },
+      { "symptomId": "symptom_042", "symptomName": "difficulty breathing", "weight": 0.85 }
+    ],
+    "baseConfidence": 0.85,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_011",
+    "diseaseId": "disease_011",
+    "diseaseName": "Fever",
+    "symptomMappings": [
+      { "symptomId": "symptom_001", "symptomName": "fever", "weight": 0.95 },
+      { "symptomId": "symptom_043", "symptomName": "chills", "weight": 0.85 },
+      { "symptomId": "symptom_044", "symptomName": "body ache", "weight": 0.8 },
+      { "symptomId": "symptom_029", "symptomName": "weakness", "weight": 0.8 },
+      { "symptomId": "symptom_013", "symptomName": "headache", "weight": 0.7 }
+    ],
+    "baseConfidence": 0.9,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_012",
+    "diseaseId": "disease_012",
+    "diseaseName": "Joint Pain and Arthritis",
+    "symptomMappings": [
+      { "symptomId": "symptom_045", "symptomName": "joint pain", "weight": 0.95 },
+      { "symptomId": "symptom_046", "symptomName": "stiffness", "weight": 0.9 },
+      { "symptomId": "symptom_047", "symptomName": "swelling", "weight": 0.8 },
+      { "symptomId": "symptom_048", "symptomName": "limited movement", "weight": 0.85 },
+      { "symptomId": "symptom_049", "symptomName": "creaking sound", "weight": 0.7 }
+    ],
+    "baseConfidence": 0.8,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_013",
+    "diseaseId": "disease_013",
+    "diseaseName": "Skin Allergies and Itching",
+    "symptomMappings": [
+      { "symptomId": "symptom_050", "symptomName": "itching", "weight": 0.95 },
+      { "symptomId": "symptom_051", "symptomName": "rash", "weight": 0.9 },
+      { "symptomId": "symptom_052", "symptomName": "redness", "weight": 0.88 },
+      { "symptomId": "symptom_053", "symptomName": "hives", "weight": 0.85 },
+      { "symptomId": "symptom_047", "symptomName": "swelling", "weight": 0.7 }
+    ],
+    "baseConfidence": 0.82,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_014",
+    "diseaseId": "disease_014",
+    "diseaseName": "Fatigue and Weakness",
+    "symptomMappings": [
+      { "symptomId": "symptom_028", "symptomName": "fatigue", "weight": 0.95 },
+      { "symptomId": "symptom_029", "symptomName": "weakness", "weight": 0.92 },
+      { "symptomId": "symptom_054", "symptomName": "low energy", "weight": 0.9 },
+      { "symptomId": "symptom_055", "symptomName": "lethargy", "weight": 0.85 },
+      { "symptomId": "symptom_056", "symptomName": "lack of motivation", "weight": 0.7 }
+    ],
+    "baseConfidence": 0.78,
+    "algorithm": "weighted_average"
+  },
+  {
+    "_id": "mapping_015",
+    "diseaseId": "disease_015",
+    "diseaseName": "High Blood Pressure",
+    "symptomMappings": [
+      { "symptomId": "symptom_057", "symptomName": "high blood pressure", "weight": 0.95 },
+      { "symptomId": "symptom_013", "symptomName": "headache", "weight": 0.7 },
+      { "symptomId": "symptom_017", "symptomName": "dizziness", "weight": 0.65 },
+      { "symptomId": "symptom_028", "symptomName": "fatigue", "weight": 0.6 },
+      { "symptomId": "symptom_058", "symptomName": "vision problems", "weight": 0.5 }
+    ],
+    "baseConfidence": 0.8,
+    "algorithm": "weighted_average"
+  }
+]

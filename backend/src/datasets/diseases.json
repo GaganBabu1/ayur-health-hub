@@ -1,0 +1,1099 @@
+[
+  {
+    "_id": "disease_001",
+    "name": "Common Cold",
+    "scientificName": "Viral Upper Respiratory Infection",
+    "ayurvedicName": "Pratisyaya",
+    "dosha": ["Vata", "Kapha"],
+    "symptoms": [
+      { "name": "cough", "weight": 0.9 },
+      { "name": "sore throat", "weight": 0.85 },
+      { "name": "runny nose", "weight": 0.9 },
+      { "name": "nasal congestion", "weight": 0.88 },
+      { "name": "fever", "weight": 0.6 },
+      { "name": "fatigue", "weight": 0.5 }
+    ],
+    "severity": "mild",
+    "triageLevel": "normal",
+    "baseConfidence": 0.8,
+    "durationDays": 7,
+    "treatments": {
+      "herbs": [
+        { "name": "Tulsi", "dosage": "1-2 cups tea daily" },
+        { "name": "Ginger", "dosage": "1 tsp fresh ginger in water" },
+        { "name": "Honey", "dosage": "1 tsp honey" },
+        { "name": "Turmeric", "dosage": "1/2 tsp in warm milk" },
+        { "name": "Licorice", "dosage": "1 tsp decoction" }
+      ],
+      "diet": [
+        "Warm herbal teas",
+        "Light chicken soup",
+        "Steamed vegetables",
+        "Avoid cold foods",
+        "Avoid dairy initially",
+        "Ginger-turmeric milk before bed"
+      ],
+      "lifestyle": [
+        "Complete rest for 2-3 days",
+        "Steam inhalation 3 times daily",
+        "Stay hydrated with warm water",
+        "Gargle with turmeric salt water",
+        "Use saline nasal drops",
+        "Sleep in warm bed"
+      ],
+      "avoidance": [
+        "Cold drinks and foods",
+        "Fried and oily foods",
+        "Refined sugars",
+        "Strenuous exercise",
+        "Air conditioning"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Fever persists beyond 5 days",
+      "Difficulty breathing",
+      "Chest pain",
+      "Severe headache with stiff neck"
+    ],
+    "seasonality": ["Winter", "Monsoon"],
+    "contagious": true,
+    "preventionTips": [
+      "Maintain good hygiene",
+      "Avoid close contact with infected persons",
+      "Wash hands frequently",
+      "Boost immunity with Ashwagandha"
+    ],
+    "complications": ["Bronchitis", "Sinusitis", "Otitis Media"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_002",
+    "name": "Acidity and Gastritis",
+    "scientificName": "Hyperacidity / Gastric Inflammation",
+    "ayurvedicName": "Amlapitta",
+    "dosha": ["Pitta"],
+    "symptoms": [
+      { "name": "acidity", "weight": 0.95 },
+      { "name": "heartburn", "weight": 0.9 },
+      { "name": "bloating", "weight": 0.8 },
+      { "name": "gas", "weight": 0.85 },
+      { "name": "indigestion", "weight": 0.9 },
+      { "name": "stomach pain", "weight": 0.75 },
+      { "name": "nausea", "weight": 0.6 }
+    ],
+    "severity": "mild",
+    "triageLevel": "normal",
+    "baseConfidence": 0.85,
+    "durationDays": 14,
+    "treatments": {
+      "herbs": [
+        { "name": "Jeera", "dosage": "1 tsp in water" },
+        { "name": "Fennel", "dosage": "1 tsp seeds after meal" },
+        { "name": "Coriander", "dosage": "1 tsp powder in water" },
+        { "name": "Licorice", "dosage": "1 tsp decoction" },
+        { "name": "Shatavari", "dosage": "1 tsp powder in milk" },
+        { "name": "Amalaki", "dosage": "1 tsp powder daily" }
+      ],
+      "diet": [
+        "Warm water with lemon (morning)",
+        "Light meals in small quantities",
+        "Include cooling spices like fennel and coriander",
+        "Avoid spicy foods",
+        "Avoid oily and fried foods",
+        "No caffeine or tea",
+        "No alcohol or tobacco",
+        "Buttermilk after lunch",
+        "Eat at regular times"
+      ],
+      "lifestyle": [
+        "Eat slowly and chew well",
+        "Avoid eating late at night",
+        "Evening walk after dinner",
+        "Meditation and stress relief",
+        "Sleep on left side",
+        "Avoid lying down immediately after meals",
+        "Stay away from emotional stress"
+      ],
+      "avoidance": [
+        "Spicy foods",
+        "Fried and oily foods",
+        "Sour fruits",
+        "Citrus juices",
+        "Coffee and tea",
+        "Smoking",
+        "Heavy foods at night"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Persistent vomiting",
+      "Blood in vomit or stool",
+      "Severe abdominal pain",
+      "Weight loss",
+      "Symptoms persist beyond 2 weeks"
+    ],
+    "seasonality": ["Summer"],
+    "contagious": false,
+    "preventionTips": [
+      "Eat at regular intervals",
+      "Avoid stress and anxiety",
+      "Exercise regularly",
+      "Maintain healthy sleep schedule",
+      "Include bitter herbs in diet"
+    ],
+    "complications": ["Ulcers", "Malabsorption", "Anemia"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_003",
+    "name": "Migraine and Headache",
+    "scientificName": "Tension Headache / Migraine Disorder",
+    "ayurvedicName": "Shiroroga",
+    "dosha": ["Vata", "Pitta"],
+    "symptoms": [
+      { "name": "headache", "weight": 0.95 },
+      { "name": "migraine", "weight": 0.9 },
+      { "name": "throbbing pain", "weight": 0.85 },
+      { "name": "light sensitivity", "weight": 0.7 },
+      { "name": "nausea", "weight": 0.6 },
+      { "name": "dizziness", "weight": 0.65 }
+    ],
+    "severity": "mild-moderate",
+    "triageLevel": "normal",
+    "baseConfidence": 0.78,
+    "durationDays": 3,
+    "treatments": {
+      "herbs": [
+        { "name": "Brahmi", "dosage": "1 tsp powder in milk" },
+        { "name": "Ashwagandha", "dosage": "1-2 grams daily" },
+        { "name": "Sandalwood", "dosage": "paste on forehead" },
+        { "name": "Lavender", "dosage": "oil for massage" },
+        { "name": "Bhringraj", "dosage": "oil for scalp massage" },
+        { "name": "Tagara", "dosage": "decoction at night" }
+      ],
+      "diet": [
+        "Avoid trigger foods",
+        "Include magnesium-rich foods",
+        "Herbal teas (chamomile, ginger)",
+        "Coconut water",
+        "Light meals",
+        "Avoid alcohol and caffeine",
+        "Include ghee in cooking"
+      ],
+      "lifestyle": [
+        "Stress management and meditation",
+        "Regular yoga (Hatha, Yin)",
+        "Deep breathing exercises",
+        "Regular sleep schedule",
+        "Neck and shoulder exercises",
+        "Avoid screen time",
+        "Head and scalp massage with oil",
+        "Cold/warm compress alternately"
+      ],
+      "avoidance": [
+        "Bright lights",
+        "Loud noises",
+        "Stress and tension",
+        "Skipping meals",
+        "Dehydration",
+        "Irregular sleep",
+        "Heavy foods"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Sudden severe headache (worst of life)",
+      "Headache with fever",
+      "Visual disturbances",
+      "Numbness or weakness",
+      "Confusion or difficulty speaking"
+    ],
+    "seasonality": ["Spring", "Autumn"],
+    "contagious": false,
+    "preventionTips": [
+      "Maintain consistent sleep schedule",
+      "Practice daily meditation",
+      "Stay hydrated",
+      "Regular scalp massage",
+      "Identify and avoid triggers"
+    ],
+    "complications": ["Chronic migraine", "Medication overuse headache"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_004",
+    "name": "Stress and Anxiety Disorder",
+    "scientificName": "Generalized Anxiety Disorder / Stress",
+    "ayurvedicName": "Chinta and Bhaya",
+    "dosha": ["Vata"],
+    "symptoms": [
+      { "name": "stress", "weight": 0.95 },
+      { "name": "anxiety", "weight": 0.92 },
+      { "name": "insomnia", "weight": 0.88 },
+      { "name": "restlessness", "weight": 0.85 },
+      { "name": "palpitations", "weight": 0.7 },
+      { "name": "muscle tension", "weight": 0.75 },
+      { "name": "irritability", "weight": 0.7 }
+    ],
+    "severity": "mild-moderate",
+    "triageLevel": "normal",
+    "baseConfidence": 0.8,
+    "durationDays": 30,
+    "treatments": {
+      "herbs": [
+        { "name": "Ashwagandha", "dosage": "1-2 grams twice daily" },
+        { "name": "Brahmi", "dosage": "1 tsp powder in milk" },
+        { "name": "Jatamansi", "dosage": "1 tsp decoction at night" },
+        { "name": "Shankhpushpi", "dosage": "1 tsp powder daily" },
+        { "name": "Tagara", "dosage": "decoction for sleep" },
+        { "name": "Tulsi", "dosage": "2-3 cups tea daily" }
+      ],
+      "diet": [
+        "Warm milk with sesame before bed",
+        "Balanced meals with good fats",
+        "Include nuts and seeds",
+        "Herbal teas (chamomile, passionflower)",
+        "Whole grains",
+        "Avoid stimulants (coffee, tea)",
+        "Warm soups and stews",
+        "Seasonal fruits"
+      ],
+      "lifestyle": [
+        "Daily meditation (20-30 mins)",
+        "Yoga (Yin, Restorative, Hatha)",
+        "Pranayama (breathing exercises)",
+        "Regular exercise (gentle)",
+        "Adequate sleep (8 hours)",
+        "Limit screen time",
+        "Abhyanga (oil massage)",
+        "Journaling",
+        "Nature walks",
+        "Social connections"
+      ],
+      "avoidance": [
+        "Caffeine and stimulants",
+        "Refined sugars",
+        "Processed foods",
+        "Alcohol",
+        "Late night screen time",
+        "Negative news",
+        "Excessive work hours",
+        "Spicy foods"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Suicidal thoughts",
+      "Severe panic attacks",
+      "Inability to function daily",
+      "Symptoms persist beyond 2 weeks despite treatment",
+      "Thoughts of self-harm"
+    ],
+    "seasonality": ["All seasons"],
+    "contagious": false,
+    "preventionTips": [
+      "Regular meditation practice",
+      "Maintain work-life balance",
+      "Build strong support network",
+      "Set boundaries on work",
+      "Engage in hobbies",
+      "Practice gratitude"
+    ],
+    "complications": ["Depression", "Sleep disorder", "Physical health issues"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_005",
+    "name": "Insomnia and Sleep Disorder",
+    "scientificName": "Primary Insomnia",
+    "ayurvedicName": "Anidra",
+    "dosha": ["Vata"],
+    "symptoms": [
+      { "name": "insomnia", "weight": 0.95 },
+      { "name": "difficulty falling asleep", "weight": 0.9 },
+      { "name": "frequent waking", "weight": 0.88 },
+      { "name": "early morning awakening", "weight": 0.85 },
+      { "name": "fatigue", "weight": 0.8 },
+      { "name": "irritability", "weight": 0.7 }
+    ],
+    "severity": "mild-moderate",
+    "triageLevel": "normal",
+    "baseConfidence": 0.82,
+    "durationDays": 30,
+    "treatments": {
+      "herbs": [
+        { "name": "Ashwagandha", "dosage": "1-2 grams at night" },
+        { "name": "Jatamansi", "dosage": "1 tsp decoction at night" },
+        { "name": "Brahmi", "dosage": "1 tsp powder in milk" },
+        { "name": "Tagara", "dosage": "decoction 1 hour before bed" },
+        { "name": "Sarpagandha", "dosage": "consult ayurvedic doctor" },
+        { "name": "Vacha", "dosage": "small pinch with honey" }
+      ],
+      "diet": [
+        "Warm milk with sesame seeds",
+        "Ghee in meals",
+        "Warm soups",
+        "Dates and figs",
+        "Seasonal fruits",
+        "Include almonds",
+        "Light dinner 2-3 hours before bed",
+        "Avoid heavy foods at night"
+      ],
+      "lifestyle": [
+        "Consistent sleep schedule (bed by 10 PM)",
+        "Avoid screens 1 hour before bed",
+        "Abhyanga (oil massage) before bed",
+        "Calm bedroom environment",
+        "Regular exercise (not before bed)",
+        "Meditation and relaxation",
+        "Warm shower before bed",
+        "Dim lights in evening",
+        "No caffeine after 2 PM"
+      ],
+      "avoidance": [
+        "Caffeine and stimulants",
+        "Alcohol",
+        "Heavy meals at night",
+        "Spicy foods",
+        "Screen time before bed",
+        "Stress and worries",
+        "Daytime naps",
+        "Irregular sleep schedule"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Insomnia persists despite treatment for 4+ weeks",
+      "Daytime sleepiness affecting work",
+      "Loud snoring with pauses in breathing",
+      "Medication dependency developing"
+    ],
+    "seasonality": ["Autumn", "Winter"],
+    "contagious": false,
+    "preventionTips": [
+      "Maintain consistent sleep schedule",
+      "Create sleep-friendly environment",
+      "Regular exercise during day",
+      "Meditation practice",
+      "Limit caffeine intake",
+      "Manage stress effectively"
+    ],
+    "complications": ["Depression", "Cognitive impairment", "Hypertension"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_006",
+    "name": "Indigestion",
+    "scientificName": "Dyspepsia",
+    "ayurvedicName": "Agnimandya",
+    "dosha": ["Pitta", "Kapha"],
+    "symptoms": [
+      { "name": "indigestion", "weight": 0.95 },
+      { "name": "bloating", "weight": 0.88 },
+      { "name": "gas", "weight": 0.85 },
+      { "name": "stomach pain", "weight": 0.8 },
+      { "name": "loss of appetite", "weight": 0.7 },
+      { "name": "heaviness in stomach", "weight": 0.8 }
+    ],
+    "severity": "mild",
+    "triageLevel": "normal",
+    "baseConfidence": 0.83,
+    "durationDays": 5,
+    "treatments": {
+      "herbs": [
+        { "name": "Ginger", "dosage": "1 tsp fresh before meals" },
+        { "name": "Jeera", "dosage": "1 tsp in water after meals" },
+        { "name": "Fennel", "dosage": "1 tsp seeds" },
+        { "name": "Asafoetida", "dosage": "small pinch" },
+        { "name": "Coriander", "dosage": "1 tsp powder" },
+        { "name": "Cardamom", "dosage": "1-2 pods" }
+      ],
+      "diet": [
+        "Light, warm meals",
+        "Small frequent meals",
+        "Include spices that aid digestion",
+        "Cooked vegetables",
+        "Avoid raw foods",
+        "Warm water between meals",
+        "Ginger tea before meals",
+        "Avoid heavy foods"
+      ],
+      "lifestyle": [
+        "Eat slowly and chew thoroughly",
+        "Light walk after meals",
+        "Avoid eating late",
+        "Proper meal timings",
+        "Stress-free eating",
+        "Adequate rest",
+        "Avoid lying down after meals"
+      ],
+      "avoidance": [
+        "Heavy meals",
+        "Oily and fried foods",
+        "Cold foods and drinks",
+        "Dairy immediately after meals",
+        "Irregular eating times",
+        "Overeating"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Symptoms persist beyond 1 week",
+      "Weight loss",
+      "Persistent vomiting",
+      "Severe abdominal pain"
+    ],
+    "seasonality": ["All seasons"],
+    "contagious": false,
+    "preventionTips": [
+      "Regular meal times",
+      "Eat mindfully",
+      "Include digestive spices",
+      "Stay hydrated",
+      "Regular exercise"
+    ],
+    "complications": ["Acidity", "Malabsorption"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_007",
+    "name": "Constipation",
+    "scientificName": "Chronic Idiopathic Constipation",
+    "ayurvedicName": "Vibandha",
+    "dosha": ["Vata"],
+    "symptoms": [
+      { "name": "constipation", "weight": 0.95 },
+      { "name": "hard stools", "weight": 0.9 },
+      { "name": "abdominal pain", "weight": 0.75 },
+      { "name": "bloating", "weight": 0.8 },
+      { "name": "loss of appetite", "weight": 0.6 }
+    ],
+    "severity": "mild",
+    "triageLevel": "normal",
+    "baseConfidence": 0.85,
+    "durationDays": 7,
+    "treatments": {
+      "herbs": [
+        { "name": "Triphala", "dosage": "1 tsp powder at night" },
+        { "name": "Isabgol", "dosage": "1 tsp husk with warm milk" },
+        { "name": "Castor oil", "dosage": "1 tsp at night" },
+        { "name": "Sesame oil", "dosage": "enema or internal" },
+        { "name": "Haritaki", "dosage": "1/2 tsp at night" }
+      ],
+      "diet": [
+        "Increase water intake (8-10 glasses)",
+        "Include fiber-rich foods",
+        "Warm milk with ghee at night",
+        "Prunes and figs",
+        "Warm soups",
+        "Include healthy oils",
+        "Avoid refined foods",
+        "Seasonal fruits"
+      ],
+      "lifestyle": [
+        "Regular morning bowel habits",
+        "Light exercise and yoga",
+        "Abdominal massage",
+        "Adequate sleep",
+        "Stress management",
+        "Don't ignore urge to defecate",
+        "Increase physical activity"
+      ],
+      "avoidance": [
+        "Refined foods",
+        "Low fiber diet",
+        "Dehydration",
+        "Sedentary lifestyle",
+        "Processed foods",
+        "Excess caffeine",
+        "Alcohol"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Sudden change in bowel habits",
+      "Blood in stool",
+      "Severe abdominal pain",
+      "Unintentional weight loss",
+      "Symptoms persist beyond 2 weeks"
+    ],
+    "seasonality": ["Autumn", "Winter"],
+    "contagious": false,
+    "preventionTips": [
+      "Maintain healthy diet with fiber",
+      "Stay hydrated",
+      "Regular exercise",
+      "Regular meal times",
+      "Include ghee and oils"
+    ],
+    "complications": ["Hemorrhoids", "Anal fissures", "Diverticulosis"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_008",
+    "name": "Diarrhea",
+    "scientificName": "Acute Diarrhea / Gastroenteritis",
+    "ayurvedicName": "Atisara",
+    "dosha": ["Pitta", "Kapha"],
+    "symptoms": [
+      { "name": "diarrhea", "weight": 0.95 },
+      { "name": "loose stools", "weight": 0.9 },
+      { "name": "abdominal pain", "weight": 0.8 },
+      { "name": "fever", "weight": 0.6 },
+      { "name": "weakness", "weight": 0.7 }
+    ],
+    "severity": "mild-moderate",
+    "triageLevel": "normal",
+    "baseConfidence": 0.88,
+    "durationDays": 3,
+    "treatments": {
+      "herbs": [
+        { "name": "Kutaja", "dosage": "decoction" },
+        { "name": "Bilva", "dosage": "powder" },
+        { "name": "Pomegranate", "dosage": "juice or powder" },
+        { "name": "Coriander", "dosage": "1 tsp powder" },
+        { "name": "Fennel", "dosage": "1 tsp seeds" }
+      ],
+      "diet": [
+        "Rice water or coconut water",
+        "Buttermilk with spices",
+        "Boiled rice with ghee",
+        "Light vegetable soups",
+        "Tender coconut water",
+        "Avoid dairy initially",
+        "Avoid spicy foods",
+        "Avoid fruits initially"
+      ],
+      "lifestyle": [
+        "Complete rest",
+        "Stay hydrated",
+        "Avoid strenuous activity",
+        "Keep warm",
+        "Frequent small meals",
+        "Monitor fluid intake"
+      ],
+      "avoidance": [
+        "Spicy foods",
+        "Dairy products",
+        "Oily foods",
+        "Fruits",
+        "Strenuous exercise",
+        "Caffeinated drinks"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Blood in stool",
+      "High fever (>103F)",
+      "Severe dehydration",
+      "Symptoms persist beyond 3 days",
+      "Inability to drink fluids"
+    ],
+    "seasonality": ["Monsoon", "Summer"],
+    "contagious": true,
+    "preventionTips": [
+      "Practice food hygiene",
+      "Drink purified water",
+      "Wash hands regularly",
+      "Maintain kitchen cleanliness",
+      "Avoid street food"
+    ],
+    "complications": ["Dehydration", "Electrolyte imbalance", "Malnutrition"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_009",
+    "name": "Cough",
+    "scientificName": "Upper Respiratory Tract Infection Cough",
+    "ayurvedicName": "Kasa",
+    "dosha": ["Kapha", "Vata"],
+    "symptoms": [
+      { "name": "cough", "weight": 0.95 },
+      { "name": "productive cough", "weight": 0.88 },
+      { "name": "sore throat", "weight": 0.8 },
+      { "name": "chest discomfort", "weight": 0.7 },
+      { "name": "fatigue", "weight": 0.6 }
+    ],
+    "severity": "mild",
+    "triageLevel": "normal",
+    "baseConfidence": 0.82,
+    "durationDays": 10,
+    "treatments": {
+      "herbs": [
+        { "name": "Tulsi", "dosage": "2-3 cups tea daily" },
+        { "name": "Ginger", "dosage": "1 tsp in warm water" },
+        { "name": "Honey", "dosage": "1 tsp with lemon" },
+        { "name": "Turmeric", "dosage": "1/2 tsp in milk" },
+        { "name": "Vasaka", "dosage": "decoction" },
+        { "name": "Licorice", "dosage": "1 tsp decoction" }
+      ],
+      "diet": [
+        "Warm herbal teas",
+        "Ginger-turmeric milk",
+        "Honey and lemon",
+        "Light soups",
+        "Steamed vegetables",
+        "Avoid cold foods",
+        "Avoid dairy (if phlegmy)",
+        "Include warming spices"
+      ],
+      "lifestyle": [
+        "Complete rest",
+        "Steam inhalation",
+        "Keep throat warm",
+        "Avoid allergens",
+        "Elevate head while sleeping",
+        "Avoid irritants (smoke)",
+        "Maintain humidity"
+      ],
+      "avoidance": [
+        "Cold foods and drinks",
+        "Dairy products",
+        "Sugary foods",
+        "Smoking",
+        "Air pollution",
+        "Strenuous exercise"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Cough persists beyond 2 weeks",
+      "Blood in sputum",
+      "Difficulty breathing",
+      "High fever",
+      "Chest pain"
+    ],
+    "seasonality": ["Winter", "Monsoon"],
+    "contagious": true,
+    "preventionTips": [
+      "Maintain good hygiene",
+      "Avoid smoke and pollution",
+      "Boost immunity",
+      "Stay warm",
+      "Avoid close contact with sick people"
+    ],
+    "complications": ["Bronchitis", "Pneumonia"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_010",
+    "name": "Asthma",
+    "scientificName": "Bronchial Asthma",
+    "ayurvedicName": "Swasa Roga",
+    "dosha": ["Kapha", "Vata"],
+    "symptoms": [
+      { "name": "shortness of breath", "weight": 0.95 },
+      { "name": "wheezing", "weight": 0.9 },
+      { "name": "chest tightness", "weight": 0.88 },
+      { "name": "cough", "weight": 0.8 },
+      { "name": "difficulty breathing", "weight": 0.85 }
+    ],
+    "severity": "moderate",
+    "triageLevel": "doctor",
+    "baseConfidence": 0.85,
+    "durationDays": 365,
+    "treatments": {
+      "herbs": [
+        { "name": "Vasaka", "dosage": "decoction daily" },
+        { "name": "Ginger", "dosage": "fresh ginger tea" },
+        { "name": "Turmeric", "dosage": "1/2 tsp daily" },
+        { "name": "Tulsi", "dosage": "2-3 cups tea" },
+        { "name": "Vasa", "dosage": "paste" }
+      ],
+      "diet": [
+        "Warm soups",
+        "Ginger and turmeric milk",
+        "Light meals",
+        "Avoid cold foods",
+        "Include warming spices",
+        "Honey daily",
+        "Avoid dairy (triggers)",
+        "Include healthy oils"
+      ],
+      "lifestyle": [
+        "Regular pranayama (breathing exercises)",
+        "Gentle yoga",
+        "Avoid allergens and triggers",
+        "Clean living environment",
+        "Manage stress",
+        "Adequate sleep",
+        "Keep warm"
+      ],
+      "avoidance": [
+        "Cold foods and air",
+        "Dairy products",
+        "Allergens",
+        "Pollution and smoke",
+        "Strenuous exercise",
+        "Stress",
+        "Extreme weather"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Severe breathing difficulty",
+      "Blue lips or nails",
+      "Inability to speak",
+      "Severe wheezing",
+      "Regular medical management needed"
+    ],
+    "seasonality": ["Winter", "Spring"],
+    "contagious": false,
+    "preventionTips": [
+      "Identify and avoid triggers",
+      "Regular breathing exercises",
+      "Maintain clean environment",
+      "Manage allergies",
+      "Keep inhaler handy"
+    ],
+    "complications": ["Status asthmaticus", "Respiratory failure"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_011",
+    "name": "Fever",
+    "scientificName": "Viral or Bacterial Fever",
+    "ayurvedicName": "Jvara",
+    "dosha": ["Pitta"],
+    "symptoms": [
+      { "name": "fever", "weight": 0.95 },
+      { "name": "chills", "weight": 0.85 },
+      { "name": "body ache", "weight": 0.8 },
+      { "name": "weakness", "weight": 0.8 },
+      { "name": "headache", "weight": 0.7 }
+    ],
+    "severity": "mild-moderate",
+    "triageLevel": "normal",
+    "baseConfidence": 0.9,
+    "durationDays": 5,
+    "treatments": {
+      "herbs": [
+        { "name": "Tulsi", "dosage": "2-3 cups tea" },
+        { "name": "Ginger", "dosage": "1 tsp in water" },
+        { "name": "Turmeric", "dosage": "1/2 tsp in milk" },
+        { "name": "Neem", "dosage": "decoction" },
+        { "name": "Giloy", "dosage": "1-2 inches stem" }
+      ],
+      "diet": [
+        "Light, easy-to-digest foods",
+        "Warm soups and broths",
+        "Herbal teas",
+        "Coconut water",
+        "Fruits (as tolerated)",
+        "Avoid heavy foods",
+        "Stay hydrated"
+      ],
+      "lifestyle": [
+        "Complete bed rest",
+        "Keep room cool and ventilated",
+        "Sponging with tepid water",
+        "Stay hydrated",
+        "Light covers",
+        "Sleep well"
+      ],
+      "avoidance": [
+        "Heavy foods",
+        "Oily and fried foods",
+        "Spicy foods",
+        "Strenuous activity",
+        "Cold environments"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "High fever (>103F) persisting",
+      "Fever with rash",
+      "Difficulty breathing",
+      "Confusion or delirium",
+      "Fever lasting beyond 5 days"
+    ],
+    "seasonality": ["Monsoon", "Transition seasons"],
+    "contagious": true,
+    "preventionTips": [
+      "Maintain hygiene",
+      "Avoid contact with infected persons",
+      "Strengthen immunity",
+      "Regular exercise",
+      "Healthy diet"
+    ],
+    "complications": ["Dehydration", "Convulsions", "Sepsis"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_012",
+    "name": "Joint Pain and Arthritis",
+    "scientificName": "Osteoarthritis / Rheumatoid Arthritis",
+    "ayurvedicName": "Sandhivata",
+    "dosha": ["Vata"],
+    "symptoms": [
+      { "name": "joint pain", "weight": 0.95 },
+      { "name": "stiffness", "weight": 0.9 },
+      { "name": "swelling", "weight": 0.8 },
+      { "name": "limited movement", "weight": 0.85 },
+      { "name": "creaking sound", "weight": 0.7 }
+    ],
+    "severity": "mild-moderate",
+    "triageLevel": "normal",
+    "baseConfidence": 0.8,
+    "durationDays": 365,
+    "treatments": {
+      "herbs": [
+        { "name": "Guggulu", "dosage": "300mg twice daily" },
+        { "name": "Turmeric", "dosage": "1/2 tsp daily" },
+        { "name": "Ginger", "dosage": "1 tsp fresh" },
+        { "name": "Ashwagandha", "dosage": "1 gram daily" },
+        { "name": "Nirgundi", "dosage": "oil for massage" }
+      ],
+      "diet": [
+        "Warm soups with bone broth",
+        "Include ghee and sesame oil",
+        "Turmeric milk",
+        "Include anti-inflammatory foods",
+        "Warm meals",
+        "Avoid cold foods",
+        "Include ginger and garlic"
+      ],
+      "lifestyle": [
+        "Gentle yoga",
+        "Joint massage with warm oils",
+        "Warm compress",
+        "Light walking",
+        "Avoid heavy lifting",
+        "Maintain weight",
+        "Good sleep"
+      ],
+      "avoidance": [
+        "Cold foods",
+        "Heavy foods",
+        "Excess activity",
+        "Sitting for long",
+        "Cold environments",
+        "Stress"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Severe swelling and redness",
+      "Inability to move joint",
+      "Systemic symptoms",
+      "Progressive worsening"
+    ],
+    "seasonality": ["Autumn", "Winter"],
+    "contagious": false,
+    "preventionTips": [
+      "Regular gentle exercise",
+      "Maintain healthy weight",
+      "Include anti-inflammatory foods",
+      "Regular oil massage",
+      "Stay warm"
+    ],
+    "complications": ["Disability", "Deformity"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_013",
+    "name": "Skin Allergies and Itching",
+    "scientificName": "Allergic Dermatitis / Urticaria",
+    "ayurvedicName": "Kandu",
+    "dosha": ["Pitta", "Kapha"],
+    "symptoms": [
+      { "name": "itching", "weight": 0.95 },
+      { "name": "rash", "weight": 0.9 },
+      { "name": "redness", "weight": 0.88 },
+      { "name": "hives", "weight": 0.85 },
+      { "name": "swelling", "weight": 0.7 }
+    ],
+    "severity": "mild",
+    "triageLevel": "normal",
+    "baseConfidence": 0.82,
+    "durationDays": 14,
+    "treatments": {
+      "herbs": [
+        { "name": "Neem", "dosage": "decoction or paste" },
+        { "name": "Turmeric", "dosage": "1/2 tsp with milk" },
+        { "name": "Sesame oil", "dosage": "massage on skin" },
+        { "name": "Sandalwood", "dosage": "paste on rash" },
+        { "name": "Triphala", "dosage": "powder internally" }
+      ],
+      "diet": [
+        "Light meals",
+        "Avoid spicy foods",
+        "Avoid dairy initially",
+        "Include cooling foods",
+        "Coconut water",
+        "Avoid citrus fruits (if triggered)",
+        "Avoid processed foods"
+      ],
+      "lifestyle": [
+        "Keep skin clean and dry",
+        "Avoid scratching",
+        "Avoid triggers",
+        "Use soft cotton clothing",
+        "Cool water baths",
+        "Avoid extreme heat",
+        "Stress management"
+      ],
+      "avoidance": [
+        "Spicy foods",
+        "Dairy products",
+        "Triggers (identified allergens)",
+        "Hot water baths",
+        "Synthetic fabrics",
+        "Harsh soaps",
+        "Stress"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Rash spreading rapidly",
+      "Severe swelling (especially face)",
+      "Difficulty breathing",
+      "Symptoms worsening",
+      "Signs of infection"
+    ],
+    "seasonality": ["Spring", "Autumn"],
+    "contagious": false,
+    "preventionTips": [
+      "Identify and avoid allergens",
+      "Maintain skin hygiene",
+      "Use gentle products",
+      "Wear cotton clothing",
+      "Avoid extreme heat/cold"
+    ],
+    "complications": ["Infection", "Chronic dermatitis"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_014",
+    "name": "Fatigue and Weakness",
+    "scientificName": "General Fatigue / Asthenia",
+    "ayurvedicName": "Klama",
+    "dosha": ["Vata", "Kapha"],
+    "symptoms": [
+      { "name": "fatigue", "weight": 0.95 },
+      { "name": "weakness", "weight": 0.92 },
+      { "name": "low energy", "weight": 0.9 },
+      { "name": "lethargy", "weight": 0.85 },
+      { "name": "lack of motivation", "weight": 0.7 }
+    ],
+    "severity": "mild",
+    "triageLevel": "normal",
+    "baseConfidence": 0.78,
+    "durationDays": 14,
+    "treatments": {
+      "herbs": [
+        { "name": "Ashwagandha", "dosage": "1-2 grams daily" },
+        { "name": "Shatavari", "dosage": "1 tsp powder" },
+        { "name": "Brahmi", "dosage": "1 tsp powder in milk" },
+        { "name": "Ginseng", "dosage": "consult doctor" },
+        { "name": "Shilajit", "dosage": "pea-sized amount" }
+      ],
+      "diet": [
+        "Nutritious meals with proteins",
+        "Include ghee and healthy fats",
+        "Seasonal fruits",
+        "Warm milk with nuts",
+        "Include dates and figs",
+        "Herbal soups",
+        "Balanced diet"
+      ],
+      "lifestyle": [
+        "Adequate sleep (8 hours)",
+        "Light exercise and yoga",
+        "Meditation",
+        "Outdoor activities",
+        "Social connections",
+        "Stress management",
+        "Regular routine"
+      ],
+      "avoidance": [
+        "Overwork",
+        "Sleep deprivation",
+        "Stress",
+        "Excessive exercise",
+        "Junk foods",
+        "Caffeine excess",
+        "Negative emotions"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Fatigue persisting beyond 2 weeks",
+      "Associated weight loss",
+      "Fever with fatigue",
+      "Difficulty with daily activities",
+      "Associated mood changes"
+    ],
+    "seasonality": ["Transition seasons"],
+    "contagious": false,
+    "preventionTips": [
+      "Maintain healthy diet",
+      "Regular exercise",
+      "Adequate sleep",
+      "Stress management",
+      "Work-life balance"
+    ],
+    "complications": ["Depression", "Chronic fatigue syndrome"],
+    "createdAt": "2025-01-01"
+  },
+  {
+    "_id": "disease_015",
+    "name": "High Blood Pressure",
+    "scientificName": "Hypertension",
+    "ayurvedicName": "Rakta Chap Vriddhi",
+    "dosha": ["Pitta", "Kapha"],
+    "symptoms": [
+      { "name": "high blood pressure", "weight": 0.95 },
+      { "name": "headache", "weight": 0.7 },
+      { "name": "dizziness", "weight": 0.65 },
+      { "name": "fatigue", "weight": 0.6 },
+      { "name": "vision problems", "weight": 0.5 }
+    ],
+    "severity": "moderate",
+    "triageLevel": "doctor",
+    "baseConfidence": 0.8,
+    "durationDays": 365,
+    "treatments": {
+      "herbs": [
+        { "name": "Ashwagandha", "dosage": "1-2 grams daily" },
+        { "name": "Brahmi", "dosage": "1 tsp powder" },
+        { "name": "Arjuna", "dosage": "decoction daily" },
+        { "name": "Shankhpushpi", "dosage": "1 tsp powder" },
+        { "name": "Garlic", "dosage": "1 clove daily" }
+      ],
+      "diet": [
+        "Low salt diet",
+        "Include potassium-rich foods",
+        "Reduce caffeine",
+        "Avoid spicy foods",
+        "Include whole grains",
+        "Leafy greens",
+        "Limit saturated fats"
+      ],
+      "lifestyle": [
+        "Regular moderate exercise",
+        "Daily yoga and pranayama",
+        "Meditation",
+        "Stress management",
+        "Adequate sleep",
+        "Limit screen time",
+        "Regular BP monitoring"
+      ],
+      "avoidance": [
+        "High salt foods",
+        "Spicy foods",
+        "Caffeine and alcohol",
+        "Stress",
+        "Sedentary lifestyle",
+        "Excess weight",
+        "Smoking"
+      ]
+    },
+    "whenToSeekDoctor": [
+      "Very high readings (>160/100)",
+      "With chest pain",
+      "With vision changes",
+      "Regular monitoring needed",
+      "Medication may be required"
+    ],
+    "seasonality": ["All seasons"],
+    "contagious": false,
+    "preventionTips": [
+      "Regular BP monitoring",
+      "Healthy diet",
+      "Regular exercise",
+      "Stress management",
+      "Maintain healthy weight",
+      "Limit salt and caffeine"
+    ],
+    "complications": ["Heart disease", "Stroke", "Kidney disease"],
+    "createdAt": "2025-01-01"
+  }
+]

@@ -1,0 +1,918 @@
+[
+  {
+    "_id": "symptom_001",
+    "name": "fever",
+    "category": "General",
+    "relatedDiseases": ["disease_001", "disease_008", "disease_011", "disease_002"],
+    "severity": "mild-moderate",
+    "duration": "3-7 days",
+    "description": "Body temperature above 98.6°F (37°C)",
+    "commonCauses": [
+      "Viral infections",
+      "Bacterial infections",
+      "Inflammatory conditions"
+    ],
+    "whenToSeekHelp": "If fever persists beyond 5 days or is very high (>103F)"
+  },
+  {
+    "_id": "symptom_002",
+    "name": "cough",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_001", "disease_009", "disease_010"],
+    "severity": "mild-moderate",
+    "duration": "1-3 weeks",
+    "description": "Reflex action to clear airway",
+    "commonCauses": [
+      "Cold and flu",
+      "Bronchitis",
+      "Asthma",
+      "Allergies"
+    ],
+    "whenToSeekHelp": "If cough persists beyond 2 weeks or produces blood"
+  },
+  {
+    "_id": "symptom_003",
+    "name": "sore throat",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_001", "disease_009"],
+    "severity": "mild",
+    "duration": "3-7 days",
+    "description": "Pain or irritation in the throat",
+    "commonCauses": [
+      "Viral infections",
+      "Bacterial infections",
+      "Allergies"
+    ],
+    "whenToSeekHelp": "If severe pain or difficulty swallowing"
+  },
+  {
+    "_id": "symptom_004",
+    "name": "runny nose",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_001"],
+    "severity": "mild",
+    "duration": "1-2 weeks",
+    "description": "Excess nasal discharge",
+    "commonCauses": [
+      "Cold",
+      "Flu",
+      "Allergies"
+    ],
+    "whenToSeekHelp": "Usually self-limiting"
+  },
+  {
+    "_id": "symptom_005",
+    "name": "nasal congestion",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_001"],
+    "severity": "mild",
+    "duration": "1-2 weeks",
+    "description": "Blocked or stuffy nose",
+    "commonCauses": [
+      "Cold",
+      "Flu",
+      "Sinusitis",
+      "Allergies"
+    ],
+    "whenToSeekHelp": "If persists beyond 2 weeks"
+  },
+  {
+    "_id": "symptom_006",
+    "name": "acidity",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_002"],
+    "severity": "mild",
+    "duration": "Days to weeks",
+    "description": "Burning sensation in chest/stomach",
+    "commonCauses": [
+      "Spicy foods",
+      "Stress",
+      "Irregular eating",
+      "Gastritis"
+    ],
+    "whenToSeekHelp": "If persists beyond 2 weeks or with blood"
+  },
+  {
+    "_id": "symptom_007",
+    "name": "heartburn",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_002"],
+    "severity": "mild",
+    "duration": "Minutes to hours",
+    "description": "Burning sensation behind breastbone",
+    "commonCauses": [
+      "Acid reflux",
+      "Spicy foods",
+      "Lying down after meals"
+    ],
+    "whenToSeekHelp": "If frequent or severe"
+  },
+  {
+    "_id": "symptom_008",
+    "name": "bloating",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_002", "disease_006", "disease_007"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Feeling of fullness and abdominal distension",
+    "commonCauses": [
+      "Poor digestion",
+      "Gas",
+      "Constipation",
+      "Dietary factors"
+    ],
+    "whenToSeekHelp": "Usually resolves with lifestyle changes"
+  },
+  {
+    "_id": "symptom_009",
+    "name": "gas",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_002", "disease_006"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Intestinal gas causing discomfort",
+    "commonCauses": [
+      "Poor digestion",
+      "Gas-forming foods",
+      "Swallowing air"
+    ],
+    "whenToSeekHelp": "Usually self-limiting"
+  },
+  {
+    "_id": "symptom_010",
+    "name": "indigestion",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_002", "disease_006"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Difficulty digesting food",
+    "commonCauses": [
+      "Heavy meals",
+      "Spicy foods",
+      "Poor eating habits",
+      "Stress"
+    ],
+    "whenToSeekHelp": "If persistent or severe"
+  },
+  {
+    "_id": "symptom_011",
+    "name": "stomach pain",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_002", "disease_006", "disease_007", "disease_008"],
+    "severity": "mild-moderate",
+    "duration": "Hours to days",
+    "description": "Abdominal discomfort or pain",
+    "commonCauses": [
+      "Indigestion",
+      "Gas",
+      "Gastroenteritis",
+      "Constipation"
+    ],
+    "whenToSeekHelp": "If severe or persistent"
+  },
+  {
+    "_id": "symptom_012",
+    "name": "nausea",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_002", "disease_008"],
+    "severity": "mild",
+    "duration": "Minutes to hours",
+    "description": "Feeling of sickness with urge to vomit",
+    "commonCauses": [
+      "Gastroenteritis",
+      "Acid reflux",
+      "Stress",
+      "Food poisoning"
+    ],
+    "whenToSeekHelp": "If persistent or with vomiting"
+  },
+  {
+    "_id": "symptom_013",
+    "name": "headache",
+    "category": "Neurological",
+    "relatedDiseases": ["disease_003", "disease_004", "disease_011"],
+    "severity": "mild-moderate",
+    "duration": "Hours to days",
+    "description": "Pain in the head or upper neck",
+    "commonCauses": [
+      "Tension",
+      "Stress",
+      "Dehydration",
+      "Infection",
+      "Migraine"
+    ],
+    "whenToSeekHelp": "If severe, sudden, or with other symptoms"
+  },
+  {
+    "_id": "symptom_014",
+    "name": "migraine",
+    "category": "Neurological",
+    "relatedDiseases": ["disease_003"],
+    "severity": "moderate-severe",
+    "duration": "4-72 hours",
+    "description": "Intense throbbing headache often on one side",
+    "commonCauses": [
+      "Stress",
+      "Hormonal changes",
+      "Dietary triggers",
+      "Environmental factors"
+    ],
+    "whenToSeekHelp": "If frequent or disabling"
+  },
+  {
+    "_id": "symptom_015",
+    "name": "throbbing pain",
+    "category": "Neurological",
+    "relatedDiseases": ["disease_003"],
+    "severity": "moderate",
+    "duration": "Hours to days",
+    "description": "Pulsating or beating pain",
+    "commonCauses": [
+      "Migraine",
+      "Tension",
+      "Inflammation"
+    ],
+    "whenToSeekHelp": "If persistent"
+  },
+  {
+    "_id": "symptom_016",
+    "name": "light sensitivity",
+    "category": "Neurological",
+    "relatedDiseases": ["disease_003"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Discomfort or pain with light exposure",
+    "commonCauses": [
+      "Migraine",
+      "Eye strain",
+      "Infection"
+    ],
+    "whenToSeekHelp": "Consult if with other symptoms"
+  },
+  {
+    "_id": "symptom_017",
+    "name": "dizziness",
+    "category": "Neurological",
+    "relatedDiseases": ["disease_003", "disease_015"],
+    "severity": "mild",
+    "duration": "Minutes to hours",
+    "description": "Sensation of spinning or lightheadedness",
+    "commonCauses": [
+      "Low blood pressure",
+      "Dehydration",
+      "Vertigo",
+      "Anxiety"
+    ],
+    "whenToSeekHelp": "If severe or persistent"
+  },
+  {
+    "_id": "symptom_018",
+    "name": "stress",
+    "category": "Psychological",
+    "relatedDiseases": ["disease_004"],
+    "severity": "mild-moderate",
+    "duration": "Days to months",
+    "description": "Mental and physical tension",
+    "commonCauses": [
+      "Work pressure",
+      "Personal issues",
+      "Health concerns",
+      "Life changes"
+    ],
+    "whenToSeekHelp": "If affecting daily life"
+  },
+  {
+    "_id": "symptom_019",
+    "name": "anxiety",
+    "category": "Psychological",
+    "relatedDiseases": ["disease_004"],
+    "severity": "mild-moderate",
+    "duration": "Minutes to persistent",
+    "description": "Feeling of worry or panic",
+    "commonCauses": [
+      "Stress",
+      "Fear",
+      "Health concerns",
+      "Caffeine excess"
+    ],
+    "whenToSeekHelp": "If persistent or debilitating"
+  },
+  {
+    "_id": "symptom_020",
+    "name": "insomnia",
+    "category": "Sleep",
+    "relatedDiseases": ["disease_004", "disease_005"],
+    "severity": "mild-moderate",
+    "duration": "Days to months",
+    "description": "Difficulty falling or staying asleep",
+    "commonCauses": [
+      "Stress",
+      "Anxiety",
+      "Sleep habits",
+      "Environmental factors"
+    ],
+    "whenToSeekHelp": "If persisting beyond 2 weeks"
+  },
+  {
+    "_id": "symptom_021",
+    "name": "difficulty falling asleep",
+    "category": "Sleep",
+    "relatedDiseases": ["disease_005"],
+    "severity": "mild",
+    "duration": "Persistent",
+    "description": "Taking more than 30 minutes to fall asleep",
+    "commonCauses": [
+      "Anxiety",
+      "Poor sleep hygiene",
+      "Stress",
+      "Caffeine"
+    ],
+    "whenToSeekHelp": "If frequent"
+  },
+  {
+    "_id": "symptom_022",
+    "name": "frequent waking",
+    "category": "Sleep",
+    "relatedDiseases": ["disease_005"],
+    "severity": "mild",
+    "duration": "Persistent",
+    "description": "Waking multiple times during night",
+    "commonCauses": [
+      "Sleep apnea",
+      "Stress",
+      "Aging",
+      "Medical conditions"
+    ],
+    "whenToSeekHelp": "If affecting daytime function"
+  },
+  {
+    "_id": "symptom_023",
+    "name": "early morning awakening",
+    "category": "Sleep",
+    "relatedDiseases": ["disease_005"],
+    "severity": "mild",
+    "duration": "Persistent",
+    "description": "Waking 2+ hours earlier than desired",
+    "commonCauses": [
+      "Depression",
+      "Aging",
+      "Sleep cycle changes",
+      "Stress"
+    ],
+    "whenToSeekHelp": "If associated with other symptoms"
+  },
+  {
+    "_id": "symptom_024",
+    "name": "restlessness",
+    "category": "Psychological",
+    "relatedDiseases": ["disease_004"],
+    "severity": "mild",
+    "duration": "Hours to persistent",
+    "description": "Inability to stay calm or still",
+    "commonCauses": [
+      "Anxiety",
+      "Caffeine",
+      "ADHD",
+      "Sleep deprivation"
+    ],
+    "whenToSeekHelp": "If chronic"
+  },
+  {
+    "_id": "symptom_025",
+    "name": "palpitations",
+    "category": "Cardiovascular",
+    "relatedDiseases": ["disease_004"],
+    "severity": "mild-moderate",
+    "duration": "Minutes to hours",
+    "description": "Awareness of heartbeat",
+    "commonCauses": [
+      "Anxiety",
+      "Caffeine",
+      "Stress",
+      "Heart conditions"
+    ],
+    "whenToSeekHelp": "If persistent or with chest pain"
+  },
+  {
+    "_id": "symptom_026",
+    "name": "muscle tension",
+    "category": "Musculoskeletal",
+    "relatedDiseases": ["disease_004"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Tight or stiff muscles",
+    "commonCauses": [
+      "Stress",
+      "Poor posture",
+      "Exercise",
+      "Anxiety"
+    ],
+    "whenToSeekHelp": "Usually self-limiting"
+  },
+  {
+    "_id": "symptom_027",
+    "name": "irritability",
+    "category": "Psychological",
+    "relatedDiseases": ["disease_004", "disease_005"],
+    "severity": "mild",
+    "duration": "Hours to persistent",
+    "description": "Easily angered or annoyed",
+    "commonCauses": [
+      "Sleep deprivation",
+      "Stress",
+      "Hormonal changes",
+      "Fatigue"
+    ],
+    "whenToSeekHelp": "If affecting relationships"
+  },
+  {
+    "_id": "symptom_028",
+    "name": "fatigue",
+    "category": "General",
+    "relatedDiseases": ["disease_001", "disease_004", "disease_005", "disease_008", "disease_011", "disease_014"],
+    "severity": "mild",
+    "duration": "Days to persistent",
+    "description": "Extreme tiredness and lack of energy",
+    "commonCauses": [
+      "Sleep deprivation",
+      "Illness",
+      "Stress",
+      "Nutritional deficiency"
+    ],
+    "whenToSeekHelp": "If persistent or affecting function"
+  },
+  {
+    "_id": "symptom_029",
+    "name": "weakness",
+    "category": "General",
+    "relatedDiseases": ["disease_001", "disease_008", "disease_011", "disease_014"],
+    "severity": "mild",
+    "duration": "Days to weeks",
+    "description": "Lack of physical strength",
+    "commonCauses": [
+      "Illness",
+      "Malnutrition",
+      "Inactivity",
+      "Infections"
+    ],
+    "whenToSeekHelp": "If persistent or worsening"
+  },
+  {
+    "_id": "symptom_030",
+    "name": "constipation",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_007"],
+    "severity": "mild",
+    "duration": "Days to weeks",
+    "description": "Difficulty passing stool",
+    "commonCauses": [
+      "Low fiber diet",
+      "Dehydration",
+      "Sedentary lifestyle",
+      "Medications"
+    ],
+    "whenToSeekHelp": "If persistent beyond 2 weeks"
+  },
+  {
+    "_id": "symptom_031",
+    "name": "hard stools",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_007"],
+    "severity": "mild",
+    "duration": "Days to weeks",
+    "description": "Dry, difficult-to-pass stools",
+    "commonCauses": [
+      "Dehydration",
+      "Low fiber",
+      "Medications",
+      "Dietary factors"
+    ],
+    "whenToSeekHelp": "Usually resolves with diet changes"
+  },
+  {
+    "_id": "symptom_032",
+    "name": "diarrhea",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_008"],
+    "severity": "mild-moderate",
+    "duration": "Hours to days",
+    "description": "Frequent loose or watery stools",
+    "commonCauses": [
+      "Gastroenteritis",
+      "Food poisoning",
+      "Stress",
+      "Dietary changes"
+    ],
+    "whenToSeekHelp": "If severe or persistent, or with blood"
+  },
+  {
+    "_id": "symptom_033",
+    "name": "loose stools",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_008"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Softer than normal bowel movements",
+    "commonCauses": [
+      "Dietary changes",
+      "Stress",
+      "Infection"
+    ],
+    "whenToSeekHelp": "Usually self-limiting"
+  },
+  {
+    "_id": "symptom_034",
+    "name": "abdominal pain",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_007", "disease_008"],
+    "severity": "mild-moderate",
+    "duration": "Hours to days",
+    "description": "Pain in the abdomen",
+    "commonCauses": [
+      "Constipation",
+      "Gas",
+      "Gastroenteritis",
+      "Inflammation"
+    ],
+    "whenToSeekHelp": "If severe or persistent"
+  },
+  {
+    "_id": "symptom_035",
+    "name": "loss of appetite",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_006"],
+    "severity": "mild",
+    "duration": "Days to weeks",
+    "description": "Decreased desire to eat",
+    "commonCauses": [
+      "Illness",
+      "Stress",
+      "Medications",
+      "Depression"
+    ],
+    "whenToSeekHelp": "If persistent or with weight loss"
+  },
+  {
+    "_id": "symptom_036",
+    "name": "heaviness in stomach",
+    "category": "Digestive",
+    "relatedDiseases": ["disease_006"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Feeling of fullness and heaviness",
+    "commonCauses": [
+      "Heavy meals",
+      "Poor digestion",
+      "Slow gastric emptying"
+    ],
+    "whenToSeekHelp": "Usually resolves with diet changes"
+  },
+  {
+    "_id": "symptom_037",
+    "name": "productive cough",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_009"],
+    "severity": "mild",
+    "duration": "1-3 weeks",
+    "description": "Cough producing phlegm or mucus",
+    "commonCauses": [
+      "Bronchitis",
+      "Pneumonia",
+      "Chronic conditions"
+    ],
+    "whenToSeekHelp": "If persisting or with colored sputum"
+  },
+  {
+    "_id": "symptom_038",
+    "name": "chest discomfort",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_009"],
+    "severity": "mild-moderate",
+    "duration": "Hours to days",
+    "description": "Discomfort or pain in chest",
+    "commonCauses": [
+      "Cough",
+      "Muscle strain",
+      "Anxiety",
+      "Heart conditions"
+    ],
+    "whenToSeekHelp": "If severe or with other symptoms"
+  },
+  {
+    "_id": "symptom_039",
+    "name": "shortness of breath",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_010"],
+    "severity": "moderate-severe",
+    "duration": "Minutes to persistent",
+    "description": "Difficulty breathing or breathlessness",
+    "commonCauses": [
+      "Asthma",
+      "Anxiety",
+      "Physical exertion",
+      "Heart disease"
+    ],
+    "whenToSeekHelp": "Immediately if severe"
+  },
+  {
+    "_id": "symptom_040",
+    "name": "wheezing",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_010"],
+    "severity": "moderate",
+    "duration": "Minutes to hours",
+    "description": "Whistling sound while breathing",
+    "commonCauses": [
+      "Asthma",
+      "Bronchitis",
+      "Allergies",
+      "Airway obstruction"
+    ],
+    "whenToSeekHelp": "If frequent or with breathing difficulty"
+  },
+  {
+    "_id": "symptom_041",
+    "name": "chest tightness",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_010"],
+    "severity": "moderate",
+    "duration": "Minutes to hours",
+    "description": "Feeling of pressure or tightness in chest",
+    "commonCauses": [
+      "Asthma",
+      "Anxiety",
+      "Muscle tension",
+      "Heart conditions"
+    ],
+    "whenToSeekHelp": "If severe or with pain"
+  },
+  {
+    "_id": "symptom_042",
+    "name": "difficulty breathing",
+    "category": "Respiratory",
+    "relatedDiseases": ["disease_010"],
+    "severity": "moderate-severe",
+    "duration": "Minutes to persistent",
+    "description": "Struggle to breathe normally",
+    "commonCauses": [
+      "Asthma",
+      "Anxiety",
+      "Respiratory infection",
+      "Heart disease"
+    ],
+    "whenToSeekHelp": "Immediately if severe"
+  },
+  {
+    "_id": "symptom_043",
+    "name": "chills",
+    "category": "General",
+    "relatedDiseases": ["disease_011"],
+    "severity": "mild",
+    "duration": "Minutes to hours",
+    "description": "Sensation of coldness with shivering",
+    "commonCauses": [
+      "Fever",
+      "Infection",
+      "Cold exposure"
+    ],
+    "whenToSeekHelp": "Usually with fever"
+  },
+  {
+    "_id": "symptom_044",
+    "name": "body ache",
+    "category": "General",
+    "relatedDiseases": ["disease_011"],
+    "severity": "mild-moderate",
+    "duration": "Days to weeks",
+    "description": "Pain throughout the body",
+    "commonCauses": [
+      "Infection",
+      "Flu",
+      "Stress",
+      "Overexertion"
+    ],
+    "whenToSeekHelp": "Usually self-limiting"
+  },
+  {
+    "_id": "symptom_045",
+    "name": "joint pain",
+    "category": "Musculoskeletal",
+    "relatedDiseases": ["disease_012"],
+    "severity": "mild-moderate",
+    "duration": "Days to persistent",
+    "description": "Pain in one or more joints",
+    "commonCauses": [
+      "Arthritis",
+      "Overuse",
+      "Inflammation",
+      "Injury"
+    ],
+    "whenToSeekHelp": "If persistent or limiting function"
+  },
+  {
+    "_id": "symptom_046",
+    "name": "stiffness",
+    "category": "Musculoskeletal",
+    "relatedDiseases": ["disease_012"],
+    "severity": "mild",
+    "duration": "Hours to persistent",
+    "description": "Reduced range of motion",
+    "commonCauses": [
+      "Arthritis",
+      "Inflammation",
+      "Inactivity",
+      "Aging"
+    ],
+    "whenToSeekHelp": "If persistent or worsening"
+  },
+  {
+    "_id": "symptom_047",
+    "name": "swelling",
+    "category": "Musculoskeletal",
+    "relatedDiseases": ["disease_012", "disease_013"],
+    "severity": "mild-moderate",
+    "duration": "Hours to persistent",
+    "description": "Enlargement or puffiness of area",
+    "commonCauses": [
+      "Inflammation",
+      "Injury",
+      "Arthritis",
+      "Infection"
+    ],
+    "whenToSeekHelp": "If severe or with redness/warmth"
+  },
+  {
+    "_id": "symptom_048",
+    "name": "limited movement",
+    "category": "Musculoskeletal",
+    "relatedDiseases": ["disease_012"],
+    "severity": "mild-moderate",
+    "duration": "Hours to persistent",
+    "description": "Reduced ability to move joint or limb",
+    "commonCauses": [
+      "Arthritis",
+      "Injury",
+      "Pain",
+      "Inflammation"
+    ],
+    "whenToSeekHelp": "If affecting daily activities"
+  },
+  {
+    "_id": "symptom_049",
+    "name": "creaking sound",
+    "category": "Musculoskeletal",
+    "relatedDiseases": ["disease_012"],
+    "severity": "mild",
+    "duration": "Persistent",
+    "description": "Cracking or popping sound from joints",
+    "commonCauses": [
+      "Arthritis",
+      "Joint degeneration",
+      "Tendon movement"
+    ],
+    "whenToSeekHelp": "Usually harmless"
+  },
+  {
+    "_id": "symptom_050",
+    "name": "itching",
+    "category": "Skin",
+    "relatedDiseases": ["disease_013"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Irritation causing desire to scratch",
+    "commonCauses": [
+      "Allergies",
+      "Dermatitis",
+      "Dry skin",
+      "Infections"
+    ],
+    "whenToSeekHelp": "If severe or with rash"
+  },
+  {
+    "_id": "symptom_051",
+    "name": "rash",
+    "category": "Skin",
+    "relatedDiseases": ["disease_013"],
+    "severity": "mild-moderate",
+    "duration": "Days to weeks",
+    "description": "Skin eruption or irritation",
+    "commonCauses": [
+      "Allergies",
+      "Dermatitis",
+      "Infection",
+      "Heat"
+    ],
+    "whenToSeekHelp": "If spreading or severe"
+  },
+  {
+    "_id": "symptom_052",
+    "name": "redness",
+    "category": "Skin",
+    "relatedDiseases": ["disease_013"],
+    "severity": "mild",
+    "duration": "Hours to days",
+    "description": "Red discoloration of skin",
+    "commonCauses": [
+      "Inflammation",
+      "Allergy",
+      "Infection"
+    ],
+    "whenToSeekHelp": "If with other symptoms"
+  },
+  {
+    "_id": "symptom_053",
+    "name": "hives",
+    "category": "Skin",
+    "relatedDiseases": ["disease_013"],
+    "severity": "mild-moderate",
+    "duration": "Minutes to hours",
+    "description": "Raised welts on skin",
+    "commonCauses": [
+      "Allergic reaction",
+      "Food allergy",
+      "Medications",
+      "Stress"
+    ],
+    "whenToSeekHelp": "If severe or with facial swelling"
+  },
+  {
+    "_id": "symptom_054",
+    "name": "low energy",
+    "category": "General",
+    "relatedDiseases": ["disease_014"],
+    "severity": "mild",
+    "duration": "Days to persistent",
+    "description": "Lack of physical or mental energy",
+    "commonCauses": [
+      "Sleep deprivation",
+      "Illness",
+      "Depression",
+      "Malnutrition"
+    ],
+    "whenToSeekHelp": "If persistent"
+  },
+  {
+    "_id": "symptom_055",
+    "name": "lethargy",
+    "category": "General",
+    "relatedDiseases": ["disease_014"],
+    "severity": "mild",
+    "duration": "Days to persistent",
+    "description": "Sluggishness and apathy",
+    "commonCauses": [
+      "Depression",
+      "Sleep disorder",
+      "Hormonal changes",
+      "Chronic illness"
+    ],
+    "whenToSeekHelp": "If affecting function"
+  },
+  {
+    "_id": "symptom_056",
+    "name": "lack of motivation",
+    "category": "Psychological",
+    "relatedDiseases": ["disease_014"],
+    "severity": "mild",
+    "duration": "Days to persistent",
+    "description": "Loss of drive or desire",
+    "commonCauses": [
+      "Depression",
+      "Stress",
+      "Burnout",
+      "Lack of interest"
+    ],
+    "whenToSeekHelp": "If affecting daily life"
+  },
+  {
+    "_id": "symptom_057",
+    "name": "high blood pressure",
+    "category": "Cardiovascular",
+    "relatedDiseases": ["disease_015"],
+    "severity": "moderate",
+    "duration": "Persistent",
+    "description": "Blood pressure reading higher than normal",
+    "commonCauses": [
+      "Stress",
+      "Salt intake",
+      "Obesity",
+      "Genetic factors"
+    ],
+    "whenToSeekHelp": "Regular monitoring needed"
+  },
+  {
+    "_id": "symptom_058",
+    "name": "vision problems",
+    "category": "Sensory",
+    "relatedDiseases": ["disease_015"],
+    "severity": "mild",
+    "duration": "Hours to persistent",
+    "description": "Blurred vision or eye discomfort",
+    "commonCauses": [
+      "High blood pressure",
+      "Eye strain",
+      "Diabetes",
+      "Refractive errors"
+    ],
+    "whenToSeekHelp": "If sudden or severe"
+  }
+]
